@@ -3,18 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1 {
+    font-size: 2.5em;
+    padding: 0.15em;
+}
+h2 {
+    font-size: 2em;
+    padding: 0.15em;
+}
+h3 {
+    font-size: 1.5em;
+    padding: 0.15em;
+}
+h4 {
+    font-size: 1.1em;
+    padding: 0.15em;
+}
+span{
+    padding: 0.15em;
+}
+div {
+    padding: 0.15em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(60, 100%, 95%);
+    height: 100vh;
+    width: 100vw;
+}
 
 header {
-    /* background-color: #008B8B; */
+    /* background-color: hsl(180, 100%, 95%); */
     display: flex;
     padding: 50px;
+    margin: 5px;
     text-align: center;
 }
 .pic-profile{
     display: flex;
     justify-content: center;
-    border: 0.25em dashed skyblue;
-    border-radius: 50%;
+    border: 0.25em dashed hsl(216, 100%, 69%);
+    border-radius: 2.5em;
 }
 .header-Pro{
     display: flex;
@@ -30,13 +62,6 @@ header {
 }
 .bechelor{
     padding: 0.25em 0.25em 0.25em 50px ;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    background-color: hsl(60, 100%, 95%);
-    height: 100vh;
 }
 
 .box {
@@ -56,25 +81,36 @@ nav {
     padding: 2em 5em;
     width: 100%;
 }
+.text-personal{
+    text-align: center;
+}
 .contact {
     padding: 2em 5em;
     width: 100%;
+}
+.text-contact {
+    text-align: center;
+    padding: 0.15em 0em;
+}
+.head-text{
+    padding: 0.15em 0em;
+}
+.detail-text{
+    padding: 0.15em 0em 0.5em 0em;
 }
 
 ul {
     list-style: inside;
     width: 100%;
+    padding: 0.15em;
 }
-.menu {
-    background-color: #FFFFFF;
-    text-align: center;
-    padding: 10px;
-    margin: 10px 0;
+li {
+    padding: 0.15em;
 }
 
 main {
     display: flex;
-    flex: 1;
+    flex: 0 1 48em;
     flex-direction: column;
     /* justify-content: center; */
     /* align-items: center; */
