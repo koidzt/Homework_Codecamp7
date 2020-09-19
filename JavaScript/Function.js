@@ -45,7 +45,7 @@
 // let n = +prompt('Please enter number for n','');
 // let c = 1;
 // for(let i = 1; i <= n; i++) {
-//     for (let j = 1 ; j <= n; j++) {
+//     for(let j = 1 ; j <= n; j++) {
 //         message = message + `${c}`;
 //         c++;
 //     }
@@ -54,14 +54,60 @@
 // alert(message);
 
 // ข้อ 7
+// let message='';
+// let n = +prompt('Please enter number for n','');
+// let c = n*n;
+// for(let i = n; i >= 1; i--) {
+//     for(let j = n ; j >= 1; j--) {
+//         message = message + `${c}`;
+//         c--;
+//     }
+//     message = message + '\n';
+// }
+// alert(message);
 
 // ข้อ 8
+// let message='';
+// let n = +prompt('Please enter number for n','');
+// for(let i = 0; i < n; i++)
+// {   message = message + `${i*2}` + `\n`;
+// }
+// alert(message);
 
 // ข้อ 9
+// let message='';
+// let n = +prompt('Please enter number for n','');
+// for(let i = 1; i <= n; i++)
+// {   message = message + `${i*2}` + `\n`;
+// }
+// alert(message);
 
 // ข้อ 10
+// let message='';
+// let n = +prompt('Please enter number for n','');
+// for(let i = 1; i <= n; i++)
+// {   for(let j = 1; j <= n; j++)
+//     {    message = message + `${i*j}`;
+//     }
+//     message = message + `\n`;
+// }
+// alert(message);
 
 // ข้อ 11
+let message='';
+let n = +prompt('Please enter number for n','');
+for(let i = 1; i <= n; i++)
+{   for(let j = 1; j <= n; j++)
+    {   if(i===j)
+        {   message = message + `-`;
+        } 
+        else 
+        {   message = message + `*`;
+        }
+    }
+    message = message + `\n`;
+}
+alert(message);
 
 // ข้อ 12
 
