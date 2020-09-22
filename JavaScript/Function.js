@@ -1,15 +1,15 @@
 // ข้อ 1
 // let message = '';
 // let n = +prompt('Please enter number for n','');
-// for(let i = 0; i < n ; i++) message = message + '*';
+// for(let i = 0; i < n ; i++) message += '*';
 // alert(message);
 
 // ข้อ 2
 // let message='';
 // let n = +prompt('Please enter number for n','');
 // for(let i = 0; i < n ; i++) {
-//     message = message + '\n';
-//     for(let j = 0; j < n ; j++) message = message + '*';
+//     message += '\n';
+//     for(let j = 0; j < n ; j++) message += '*';
 // }
 // alert(message);
 
@@ -17,8 +17,8 @@
 // let message='';
 // let n = +prompt('Please enter number for n','');
 // for(let i = 0; i < n ; i++) {
-//     message = message + '\n';
-//     for(let j = 1; j <= n ; j++) message = message + j;
+//     message += '\n';
+//     for(let j = 1; j <= n ; j++) message += j;
 // }
 // alert(message);
 
@@ -26,8 +26,8 @@
 // let message='';
 // let n = +prompt('Please enter number for n','');
 // for(let i = 1; i <= n ; i++) {
-//     for(let j = 1; j <= n ; j++) message = message + `${i}`;
-//     message = message + '\n';
+//     for(let j = 1; j <= n ; j++) message += `${i}`;
+//     message += '\n';
 // }
 // alert(message);
 
@@ -35,8 +35,8 @@
 // let message='';
 // let n = +prompt('Please enter number for n','');
 // for(let i = n; i >= 1 ; i--) {
-//     for(let j = 1; j <= n ; j++) message = message + `${i}`;
-//     message = message + '\n';
+//     for(let j = 1; j <= n ; j++) message += `${i}`;
+//     message += '\n';
 // }
 // alert(message);
 
@@ -46,10 +46,10 @@
 // let c = 1;
 // for(let i = 1; i <= n; i++) {
 //     for(let j = 1 ; j <= n; j++) {
-//         message = message + `${c}`;
+//         message += `${c}`;
 //         c++;
 //     }
-//     message = message + '\n';
+//     message += '\n';
 // }
 // alert(message);
 
@@ -59,10 +59,10 @@
 // let c = n*n;
 // for(let i = n; i >= 1; i--) {
 //     for(let j = n ; j >= 1; j--) {
-//         message = message + `${c}`;
+//         message += `${c}`;
 //         c--;
 //     }
-//     message = message + '\n';
+//     message += '\n';
 // }
 // alert(message);
 
@@ -70,7 +70,7 @@
 // let message='';
 // let n = +prompt('Please enter number for n','');
 // for(let i = 0; i < n; i++)
-// {   message = message + `${i*2}` + `\n`;
+// {   message += `${i*2}` + `\n`;
 // }
 // alert(message);
 
@@ -78,7 +78,7 @@
 // let message='';
 // let n = +prompt('Please enter number for n','');
 // for(let i = 1; i <= n; i++)
-// {   message = message + `${i*2}` + `\n`;
+// {   message += `${i*2}` + `\n`;
 // }
 // alert(message);
 
@@ -87,9 +87,9 @@
 // let n = +prompt('Please enter number for n','');
 // for(let i = 1; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
-//     {    message = message + `${i*j}`;
+//     {    message += `${i*j}`;
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -99,13 +99,13 @@
 // for(let i = 1; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(i === j)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -115,13 +115,13 @@
 // for(let i = n; i >= 1; i--)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(i === j)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -131,13 +131,13 @@
 // for(let i = 1; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j > i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -147,13 +147,13 @@
 // for(let i = n; i >= 1; i--)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j > i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -164,24 +164,24 @@
 // for(i = 1; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j > i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // for(i = i-2; i >= 1; i--)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j > i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -192,24 +192,24 @@
 // for(i = 1; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j > i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `${i}`;
+//         {   message += `${i}`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // for(i = i-2; i >= 1; i--)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j > i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `${i}`;
+//         {   message += `${i}`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -219,13 +219,13 @@
 // for(let i = 1; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j+i <= n)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -235,13 +235,13 @@
 // for(let i = 1; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j < i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -251,24 +251,24 @@
 // for(let i = 1; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j+i <= n)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // for(let i = 2; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j < i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -279,26 +279,26 @@
 // for(let i = 1; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j+i <= n)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `${c}`;
+//         {   message += `${c}`;
 //             c++;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // for(let i = 2; i <= n; i++)
 // {   for(let j = 1; j <= n; j++)
 //     {   if(j < i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `${c}`;
+//         {   message += `${c}`;
 //             c++;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -308,21 +308,21 @@
 // for(let i = 1; i<=n; i++)
 // {   for(let j = 1; j<=n; j++)
 //     {   if(j + i <= n)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         }
 //         else
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
 //     for(let j = 2; j<=n; j++)
 //     {   if(j > i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         }
 //         else
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -332,21 +332,21 @@
 // for(let i = 1; i <= n; i++)
 // {   for(let j = 1; j < n; j++)
 //     {   if(j < i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
 //     for(let j = n; j >= 1; j--)
 //         {   if(j < i)
-//             {   message = message + `-`;
+//             {   message += `-`;
 //             } 
 //             else 
-//             {   message = message + `*`;
+//             {   message += `*`;
 //             }
 //         }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -356,40 +356,40 @@
 // for(let i = 1; i<=n; i++)
 // {   for(let j = 1; j<=n; j++)
 //     {   if(j + i <= n)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         }
 //         else
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
 //     for(let j = 2; j<=n; j++)
 //     {   if(j > i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         }
 //         else
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // for(let i = 2; i <= n; i++)
 // {   for(let j = 1; j < n; j++)
 //     {   if(j < i)
-//         {   message = message + `-`;
+//         {   message += `-`;
 //         } 
 //         else 
-//         {   message = message + `*`;
+//         {   message += `*`;
 //         }
 //     }
 //     for(let j = n; j >= 1; j--)
 //         {   if(j < i)
-//             {   message = message + `-`;
+//             {   message += `-`;
 //             } 
 //             else 
-//             {   message = message + `*`;
+//             {   message += `*`;
 //             }
 //         }
-//     message = message + `\n`;
+//     message += `\n`;
 // }
 // alert(message);
 
@@ -400,43 +400,43 @@ let c = 1;
 for(let i = 1; i<=n; i++)
 {   for(let j = 1; j<=n; j++)
     {   if(j + i <= n)
-        {   message = message + `-`;
+        {   message += `-`;
         }
         else
-        {   message = message + `${c}`;
+        {   message += `${c}`;
             c++;
         }
     }
     for(let j = 2; j<=n; j++)
     {   if(j > i)
-        {   message = message + `-`;
+        {   message += `-`;
         }
         else
-        {   message = message + `${c}`;
+        {   message += `${c}`;
             c++;
         }
     }
-    message = message + `\n`;
+    message += `\n`;
 }
 for(let i = 2; i <= n; i++)
 {   for(let j = 1; j < n; j++)
     {   if(j < i)
-        {   message = message + `-`;
+        {   message += `-`;
         } 
         else 
-        {   message = message + `${c}`;
+        {   message += `${c}`;
             c++;
         }
     }
     for(let j = n; j >= 1; j--)
         {   if(j < i)
-            {   message = message + `-`;
+            {   message += `-`;
             } 
             else 
-            {   message = message + `${c}`;
+            {   message += `${c}`;
                 c++;
             }
         }
-    message = message + `\n`;
+    message += `\n`;
 }
 alert(message);
