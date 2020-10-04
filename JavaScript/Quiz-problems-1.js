@@ -1,11 +1,32 @@
 // ข้อ 1
-let a = +prompt('enter num of a');
-let b = +prompt('enter num of b');
-for(let i=0 )
+// let a = +prompt('enter num of a');
+// let b = +prompt('enter num of b');
+// let n = (a < b)? a : b;
+// let con = 1;
+// for(let i = 1; i <= n; i++ ) {
+//     if(a % i == 0) {
+//         if(b % i == 0) {
+//             con = i;
+//         }
+//     }
+// }
+// let c = a/con;
+// let d = b/con;
+// alert(`a : ${a} \n b : ${b} \n a/b : ${c}/${d}`);
 
 // ข้อ 2
+// let sum = 0;
+// for (let i = 160; i <= 2048; i++){
+//     sum += i;
+// }
+// alert(`sum : ${sum}`);
 
 // ข้อ 3
+// let sum = 0;
+// for (let i = 163; i <= 815; i +=4){
+//     sum += i;
+// }
+// alert(`sum : ${sum}`);
 
 // ข้อ 4
 // let a,b,c,d, message = '';
