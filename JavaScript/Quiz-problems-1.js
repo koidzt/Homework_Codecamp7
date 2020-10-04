@@ -1,4 +1,7 @@
 // ข้อ 1
+let a = +prompt('enter num of a');
+let b = +prompt('enter num of b');
+for(let i=0 )
 
 // ข้อ 2
 
