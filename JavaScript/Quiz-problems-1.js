@@ -146,9 +146,37 @@
 // alert(`${min1},${min2},${min3}`);
 
 // ข้อ 12
+// let n = prompt('enter number');
+// let min = n;
+// while(n !== null && n !== 'stop') {
+//     min = (n < min)? n : min;
+//     n = prompt('enter number');
+// }
+// alert(`min : ${min}`);
 
 // ข้อ 13
+// let n = prompt('enter number');
+// let min = n;
+// let max = n;
+// while(n !== null && n !== 'stop') {
+//     if(n < min) {
+//         min = n;
+//     } else if(n > max) {
+//         max = n;
+//     }
+//     n = prompt('enter number');
+// }
+// alert(`min : ${min}\nmax : ${max}`);
 
 // ข้อ 14
+// let n = prompt('enter number');
+// let count = 0;
+// let sum = 0;
+// while(n !== null && n !== 'stop') {
+//     count++;
+//     sum += Number(n);
+//     n = prompt('enter number');
+// }
+// alert(`avg : ${sum/count}`);
 
 // ข้อ 15
