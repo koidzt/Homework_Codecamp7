@@ -1,6 +1,6 @@
 ### Codecamp # 7
 ธนวรรณ พนิตพงศ์ศรี <br>
 <ul> Homework List <br>
-    <li>JS-Retest : Retest Problems</li>
-    <li>JS-Function : Exercise - Function</li>
+    <li>JS-Basic : Exercise - Function, Retest Problems1</li>
+    <li>JS-Advance : Retest Problems2</li>
 </ul>
