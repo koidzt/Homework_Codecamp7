@@ -1,3 +1,3 @@
 ### CodeCamp # 7
 ธนวรรณ พนิตพงศ์ศรี <br>
-Homework List : Resume
+Homework List : Resume from HTML & CSS
