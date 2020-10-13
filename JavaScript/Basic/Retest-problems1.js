@@ -199,5 +199,21 @@ function answer14() {
 }
 
 function answer15() {
-
+  let n = prompt('enter number');
+  let str = String(n);
+  let textLength = str.length;
+  console.log(textLength);
+  let reverseNum = "";
+  if (n >= 0) {
+    for (let i = textLength; i > 0; i--) {
+      reverseNum += str[i - 1];
+    }
+  }
+  else {
+    reverseNum = "-";
+    for (let i = textLength; i > 1; i--) {
+      reverseNum += str[i - 1];
+    }
+  }
+  alert(reverseNum);
 }
