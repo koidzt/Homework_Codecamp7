@@ -130,16 +130,33 @@ function answer6() {
   alert(`6 : n = ${n}\n${sum}`);
 }
 
-function answer7() {
 
-}
+// function answer7() {
+//   let num = [6, 8, 16];
+//   let numbers = [];
+//   let min = Math.min(...num);
+//   for (let j = 2; j <= min; j++) {
+//     for (let i = 0; i < num.length; i++) {
+//       if (num[i] % j === 0) {
+//         numbers = [...numbers, j]
+//         console.log(numbers);
+//       }
+//     }
+//   }
+//   let gcd;
+// }
 
 function answer8() {
 
 }
 
 function answer9() {
-
+  let n = +prompt('enter number');
+  let factorial = 1;
+  for (let i=1; i<=n; i++){
+    factorial *= i;
+  }
+  alert(`${n}! = ${factorial}`);
 }
 
 function answer10() {
@@ -159,9 +176,27 @@ function answer13() {
 }
 
 function answer14() {
-
+  let n = +prompt('enter number');
+  let factorial = 1;
+  for (let i=1; i<=n; i++){
+    factorial *= i;
+  }
+  let strFac = String(factorial);
+  let sum = 0;
+  for(let i=0; i<strFac.length; i++){
+    sum += Number(strFac[i]);
+  }
+  console.log(`${n}! = ${factorial}\nresult = ${sum}`);
+  alert(`${n}! = ${factorial}\nresult = ${sum}`);
 }
 
-function answer15() {
+// function answer15() {
+//   let num = 4129980;
+//   let strNum = String(num);
+//   for(let i=1; i<=strNum.length; i++){
+//     if(strNum.length<10**i) {
+
+//     }
+//   }
 
 }
