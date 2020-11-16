@@ -30,4 +30,4 @@ test('Test requirement 7', () => {
 
 test('Test requirement 8', () => {
   expect(greet(["Bob", "\"Charlie, Dianne\""])).toBe("Hello, Bob and Charlie, Dianne.");
-});
+}); 

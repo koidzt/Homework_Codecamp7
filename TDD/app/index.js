@@ -55,6 +55,7 @@ module.exports.greet = (name) => {
           test = 5;
         }
       }
+      // Test7
       if (test === 7) {
         let newName = [];
         for (let i = 0; i < nameNormal.length; i++) {
@@ -75,6 +76,7 @@ module.exports.greet = (name) => {
         message += `and ${newName[newName.length - 1]}.`
 
         return message;
+        // Test8
       } else if (test === 8) {
         let newName = [];
         for (let i = 0; i < nameNormal.length; i++) {
@@ -90,9 +92,9 @@ module.exports.greet = (name) => {
         }
 
         return `Hello, ${newName[0]} and ${newName[1]}, ${newName[2]}.`;
-
+        
+        // Teat5
       } else {
-
         return `Hello, ${name[0]} and ${name[1]}.`;
       }
     }
